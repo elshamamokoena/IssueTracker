@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IssueTracker.Domain.Entities
+namespace IssueTracker.Domain.Entities.Defects
 {
     public class Software
     {
@@ -12,15 +12,15 @@ namespace IssueTracker.Domain.Entities
         public string Name { get; set; } = string.Empty;
         public string Contact { get; set; } = string.Empty;
         public string Version { get; set; } = string.Empty;
-        public string Description { get; set;} = string.Empty;
-        public ICollection<Software> SoftwareDependencies { get; set; } 
+        public string Description { get; set; } = string.Empty;
+        public ICollection<Software> SoftwareDependencies { get; set; }
             = new List<Software>();
-        public ICollection<SoftwarePackage> Packages { get; set; } 
+        public ICollection<SoftwarePackage> Packages { get; set; }
             = new List<SoftwarePackage>();
-        public ICollection< SoftwareComponent>  SoftwareComponent { get; set; } 
+        public ICollection<SoftwareComponent> SoftwareComponent { get; set; }
             = new List<SoftwareComponent>();
-        public ICollection<Bug> AssociatedBugs { get; set; } = new List<Bug>();
-      
+        public ICollection<Issue> RelatedIssues { get; set; } = new List<Issue>();
+
 
     }
 }

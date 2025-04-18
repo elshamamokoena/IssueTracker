@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IssueTracker.Domain.Entities
+namespace IssueTracker.Domain.Entities.Defects
 {
-    public class SoftwarePackage:AuditableEntity
+    public class SoftwarePackage : AuditableEntity
     {
         public Guid SoftwarePackageId { get; set; }
         public Guid SoftwareId { get; set; }
@@ -15,9 +15,9 @@ namespace IssueTracker.Domain.Entities
         public string Version { get; set; } = string.Empty;
         public string Maintainer { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public ICollection<SoftwarePackage> PackageDependencies { get; set;} 
+        public ICollection<SoftwarePackage> PackageDependencies { get; set; }
             = new List<SoftwarePackage>();
-        public ICollection<Bug> AssociatedBugs { get; set; } 
+        public ICollection<Bug> AssociatedBugs { get; set; }
             = new List<Bug>();
 
 

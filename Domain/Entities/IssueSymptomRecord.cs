@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace IssueTracker.Domain.Entities
 {
-    public class BugPlatform:AuditableEntity
+    public class IssueSymptomRecord : AuditableEntity
     {
-        public Guid BugPlatformId { get; set; }
+        public Guid BugSymptomId { get; set; }
         public Guid BugId { get; set; }
-        public Guid PlatformId { get; set; }
+        public Guid SymptomId { get; set; }
     }
 }

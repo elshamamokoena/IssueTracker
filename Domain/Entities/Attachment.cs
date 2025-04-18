@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace IssueTracker.Domain.Entities
 {
-    public class Attachment:AuditableEntity
+    public class Attachment : AuditableEntity
     {
         public Guid AttachmentId { get; set; }
         public Guid BugId { get; set; }
-        public string ? AuthorId { get; set; }
+        public string? AuthorId { get; set; }
     }
 }

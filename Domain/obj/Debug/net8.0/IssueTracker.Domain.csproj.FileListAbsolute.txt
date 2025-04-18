@@ -1,0 +1,5 @@
+C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.AssemblyInfo.cs
+C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.sourcelink.json
