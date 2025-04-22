@@ -36,7 +36,6 @@ namespace IssueTracker.Application.Features.Issues.Commands.CreateIssue
                 {
                     createIssueCommandResponse.ValidationErrors.Add(error.ErrorMessage);
                 }
-
             }
             if(createIssueCommandResponse.Success)
             {

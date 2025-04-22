@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gTCAm0qAJsBEXiPX3KJfPKFjl50hVBYO6vjnq/SA5pI=",
+  "Source": "IssueTracker.Api",
+  "BasePath": "_content/IssueTracker.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -9,8 +9,9 @@ namespace IssueTracker.Domain.Entities
 {
     public class AffectedPlatform : AuditableEntity
     {
-        public Guid BugPlatformId { get; set; }
-        public Guid BugId { get; set; }
+        public Guid AffectedPlatformId { get; set; }
+        public Guid IssuePlatformId { get; set; }
+        public Guid IssueId { get; set; }
         public Guid PlatformId { get; set; }
     }
 }

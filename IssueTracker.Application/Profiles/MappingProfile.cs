@@ -1,7 +1,10 @@
 ﻿using AutoMapper;
+using IssueTracker.Application.Features.Attachments.Commands.CreateAttachment;
 using IssueTracker.Application.Features.Issues.Commands.CreateIssue;
+using IssueTracker.Application.Features.Issues.Commands.UpdateIssue;
 using IssueTracker.Application.Features.Issues.Queries.GetIssueDetail;
 using IssueTracker.Application.Features.Issues.Queries.GetIssueList;
+using IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord;
 using IssueTracker.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -19,6 +22,15 @@ namespace IssueTracker.Application.Profiles
             CreateMap<Issue, CreateIssueDto>().ReverseMap();
             CreateMap<Issue, IssueVm>().ReverseMap();
             CreateMap<Issue, IssueListVm>();
+            CreateMap<UpdateIssueCommand, Issue>();
+
+            //Attachments
+            CreateMap<CreateAttachmentCommand, Attachment>();
+            CreateMap<Attachment, CreateAttachmentDto>();
+
+            //related issues
+            CreateMap<RelatedIssueRecord, CreateRelatedIssueRecordCommandDto>();
+            CreateMap<CreateRelatedIssueRecordCommand, RelatedIssueRecord>();
         }
     }
 }

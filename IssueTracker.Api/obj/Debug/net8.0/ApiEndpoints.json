@@ -1,0 +1,186 @@
+[
+  {
+    "ContainingType": "IssueTracker.Api.Controllers.AttachmentController",
+    "Method": "CreateAttachment",
+    "RelativePath": "api/attachments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAttachmentCommand",
+        "Type": "IssueTracker.Application.Features.Attachments.Commands.CreateAttachment.CreateAttachmentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IssueTracker.Application.Features.Attachments.Commands.CreateAttachment.CreateAttachmentCommandResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "CreateAttachment"
+  },
+  {
+    "ContainingType": "IssueTracker.Api.Controllers.IssueController",
+    "Method": "CreateIssue",
+    "RelativePath": "api/issues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createIssueCommand",
+        "Type": "IssueTracker.Application.Features.Issues.Commands.CreateIssue.CreateIssueCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IssueTracker.Application.Features.Issues.Commands.CreateIssue.CreateIssueCommandResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "AddIssue"
+  },
+  {
+    "ContainingType": "IssueTracker.Api.Controllers.IssueController",
+    "Method": "UpdateIssue",
+    "RelativePath": "api/issues",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateIssueCommand",
+        "Type": "IssueTracker.Application.Features.Issues.Commands.UpdateIssue.UpdateIssueCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "UpdateIssue"
+  },
+  {
+    "ContainingType": "IssueTracker.Api.Controllers.IssueController",
+    "Method": "DeleteIssue",
+    "RelativePath": "api/issues/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ],
+    "EndpointName": "DeleteIssue"
+  },
+  {
+    "ContainingType": "IssueTracker.Api.Controllers.IssueController",
+    "Method": "GetAllIssues",
+    "RelativePath": "api/issues/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[IssueTracker.Application.Features.Issues.Queries.GetIssueList.IssueListVm, IssueTracker.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllIssues"
+  },
+  {
+    "ContainingType": "IssueTracker.Api.Controllers.IssueController",
+    "Method": "CreateRelatedIssue",
+    "RelativePath": "api/issues/relatedissue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createRelatedIssueRecordCommand",
+        "Type": "IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord.CreateRelatedIssueRecordCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord.CreateRelatedIssueRecordCommandResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "CreateRelatedIssue"
+  }
+]

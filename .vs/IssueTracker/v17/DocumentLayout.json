@@ -3,148 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\models\\issuetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\models\\issuetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.persistence\\migrations\\20250422221151_attachmentmodified2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|solutionrelative:issuetracker.persistence\\migrations\\20250422221151_attachmentmodified2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\queries\\getissuelist\\getissuelistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\queries\\getissuelist\\getissuelistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.api\\controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|solutionrelative:issuetracker.api\\controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\contracts\\persistence\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\contracts\\persistence\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\contracts\\persistence\\iissuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\contracts\\persistence\\iissuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\deleteissue\\deleteissuecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\deleteissue\\deleteissuecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\deleteissue\\deleteissuecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\deleteissue\\deleteissuecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\queries\\getissuelist\\issuelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\queries\\getissuelist\\issuelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\queries\\getissuelist\\getissuelistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\queries\\getissuelist\\getissuelistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\queries\\getissuedetail\\issuevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\queries\\getissuedetail\\issuevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\issuetracker.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\issuetracker.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\queries\\getissuedetail\\getissuedetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\queries\\getissuedetail\\getissuedetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\queries\\getissuedetail\\getissuedetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\queries\\getissuedetail\\getissuedetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\updateissue\\updateissuecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\updateissue\\updateissuecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\updateissue\\updateissuecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\updateissue\\updateissuecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\createissue\\createissuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\createissue\\createissuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\createissue\\createissuecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.persistence\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|solutionrelative:issuetracker.persistence\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\contracts\\persistence\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\contracts\\persistence\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\relatedissuerecords\\commands\\createrelatedissuerecord\\createrelatedissuerecordcommanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\defects\\software.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\defects\\software.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.api\\extensions\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|solutionrelative:issuetracker.api\\extensions\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\defects\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\defects\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.api\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|solutionrelative:issuetracker.api\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\affectedplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\affectedplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|solutionrelative:issuetracker.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|solutionrelative:issuetracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.api\\issuetracker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|solutionrelative:issuetracker.api\\issuetracker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.api\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}|IssueTracker.Api\\IssueTracker.Api.csproj|solutionrelative:issuetracker.api\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.persistence\\issuetracker.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|solutionrelative:issuetracker.persistence\\issuetracker.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\issues\\commands\\createissue\\createissuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\issues\\commands\\createissue\\createissuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B7F88E-4C34-4A27-A2D1-AC64725E079A}|IssueTracker.Application\\IssueTracker.Application.csproj|solutionrelative:issuetracker.application\\features\\attachments\\commands\\createattachment\\createattachmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\relatedissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\relatedissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\issuesymptomrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\issuesymptomrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\defects\\softwarecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\defects\\softwarecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\affectedplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\affectedplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\defects\\softwarepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\defects\\softwarepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\entities\\defects\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\entities\\defects\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\domain\\issuetracker.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{51FF88EB-A107-4BED-947A-7B896413FB3B}|Domain\\IssueTracker.Domain.csproj|solutionrelative:domain\\issuetracker.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|c:\\users\\elsha\\source\\repos\\issuetracker\\issuetracker.persistence\\migrations\\20250422175117_attachmentmodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9854EEE-34B9-43B9-90A2-E46C846BA057}|IssueTracker.Persistence\\IssueTracker.Persistence.csproj|solutionrelative:issuetracker.persistence\\migrations\\20250422175117_attachmentmodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,32 +134,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Issue.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Issue.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Issue.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Issue.cs",
-              "RelativeToolTip": "Domain\\Entities\\Issue.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowBUAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:16:02.053Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateIssueDto.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:41:39.694Z",
+              "WhenOpened": "2025-04-22T17:13:28.091Z",
               "IsPinned": true
             },
             {
@@ -188,412 +155,364 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetIssueListQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQueryHandler.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQueryHandler.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQueryHandler.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQueryHandler.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:19:15.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\ApplicationServiceRegistration.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\ApplicationServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\ApplicationServiceRegistration.cs",
-              "RelativeToolTip": "IssueTracker.Application\\ApplicationServiceRegistration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:09:45.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAsyncRepository.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T19:45:32.357Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IssueType.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Models\\IssueType.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\IssueType.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Models\\IssueType.cs",
-              "RelativeToolTip": "Domain\\Models\\IssueType.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBAAAAAWAAAAAAAAAA==",
+              "Title": "20250422221151_attachmentModified2.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\Migrations\\20250422221151_attachmentModified2.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Persistence\\Migrations\\20250422221151_attachmentModified2.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\Migrations\\20250422221151_attachmentModified2.cs",
+              "RelativeToolTip": "IssueTracker.Persistence\\Migrations\\20250422221151_attachmentModified2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:09:44.404Z",
+              "WhenOpened": "2025-04-22T22:11:51.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IIssueRepository.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Contracts\\Persistence\\IIssueRepository.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Contracts\\Persistence\\IIssueRepository.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Contracts\\Persistence\\IIssueRepository.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Contracts\\Persistence\\IIssueRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IssueController.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Controllers\\IssueController.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Api\\Controllers\\IssueController.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Controllers\\IssueController.cs",
+              "RelativeToolTip": "IssueTracker.Api\\Controllers\\IssueController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T19:54:09.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteIssueCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommandHandler.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommandHandler.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommandHandler.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommandHandler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:04:14.419Z"
+              "WhenOpened": "2025-04-22T21:59:13.698Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DeleteIssueCommand.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommand.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommand.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommand.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\DeleteIssue\\DeleteIssueCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "CreateAttachmentCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandHandler.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandHandler.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandHandler.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandHandler.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwBsAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:02:53.178Z"
+              "WhenOpened": "2025-04-22T16:31:29.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateRelatedIssueRecordCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandHandler.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandHandler.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandHandler.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAawCUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:22:57.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateRelatedIssueRecordCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandValidator.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandValidator.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandValidator.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA2wBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:19:48.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateRelatedIssueRecordCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandResponse.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandResponse.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandResponse.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:11:52.609Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Profiles\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Profiles\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Profiles\\MappingProfile.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Profiles\\MappingProfile.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Title": "CreateRelatedIssueRecordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommand.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommand.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommand.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:52:33.511Z"
+              "WhenOpened": "2025-04-22T20:04:23.674Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IssueListVm.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\IssueListVm.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\IssueListVm.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\IssueListVm.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\IssueListVm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Title": "CreateAttachmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentDto.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentDto.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentDto.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:51:16.447Z"
+              "WhenOpened": "2025-04-22T16:31:14.306Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GetIssueListQuery.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQuery.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQuery.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQuery.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueList\\GetIssueListQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Title": "CreateAttachmentCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandResponse.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandResponse.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandResponse.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:58:47.601Z"
+              "WhenOpened": "2025-04-22T16:31:27.351Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IssueVm.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\IssueVm.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\IssueVm.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\IssueVm.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\IssueVm.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBAAAAAuAAAAAAAAAA==",
+              "Title": "CreateAttachmentCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandValidator.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandValidator.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandValidator.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommandValidator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:12:11.625Z"
+              "WhenOpened": "2025-04-22T16:31:17.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetIssueDetailQuery.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQuery.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQuery.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQuery.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:10:41.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IssueTracker.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\IssueTracker.Application.csproj",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\IssueTracker.Application.csproj",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\IssueTracker.Application.csproj",
-              "RelativeToolTip": "IssueTracker.Application\\IssueTracker.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-17T17:54:53.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetIssueDetailQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQueryHandler.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQueryHandler.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQueryHandler.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Queries\\GetIssueDetail\\GetIssueDetailQueryHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:57:12.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CreateIssueCommand.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommand.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommand.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommand.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommand.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:30:46.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UpdateIssueCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommandHandler.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommandHandler.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommandHandler.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommandHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA4wBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:52:57.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdateIssueCommand.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommand.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommand.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommand.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\UpdateIssue\\UpdateIssueCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:39:15.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
               "Title": "CreateIssueCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandHandler.cs",
               "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandHandler.cs",
               "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandHandler.cs",
               "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandHandler.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDQAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T22:06:58.468Z"
+              "WhenOpened": "2025-04-22T20:39:59.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateIssueCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandValidator.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandValidator.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandValidator.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandValidator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:46:06.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "CreateIssueCommandResponse.cs",
               "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandResponse.cs",
               "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandResponse.cs",
               "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandResponse.cs",
               "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueCommandResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:33:46.583Z"
+              "WhenOpened": "2025-04-22T20:39:57.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Responses\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Responses\\BaseResponse.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Responses\\BaseResponse.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Responses\\BaseResponse.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Persistence\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "IssueTracker.Persistence\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:53:26.529Z"
+              "WhenOpened": "2025-04-22T20:35:31.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ValidationException.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Exceptions\\ValidationException.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Exceptions\\ValidationException.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Exceptions\\ValidationException.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Exceptions\\ValidationException.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "IAsyncRepository.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Contracts\\Persistence\\IAsyncRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:41:00.255Z"
+              "WhenOpened": "2025-04-22T20:35:15.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "CreateRelatedIssueRecordCommandDto.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandDto.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandDto.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandDto.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\RelatedIssueRecords\\Commands\\CreateRelatedIssueRecord\\CreateRelatedIssueRecordCommandDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:37:31.149Z"
+              "WhenOpened": "2025-04-22T20:13:38.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "IssueTracker.Application\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "IssueTracker.Application\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Issue.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Issue.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Issue.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Issue.cs",
+              "RelativeToolTip": "Domain\\Entities\\Issue.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:34:39.779Z"
+              "WhenOpened": "2025-04-22T19:44:22.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SoftwareComponent.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\SoftwareComponent.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Defects\\SoftwareComponent.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\SoftwareComponent.cs",
-              "RelativeToolTip": "Domain\\Entities\\Defects\\SoftwareComponent.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAEwBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "MiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Api\\Extensions\\MiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeToolTip": "IssueTracker.Api\\Extensions\\MiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:34:23.469Z"
+              "WhenOpened": "2025-04-22T18:26:37.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AffectedPlatform.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\AffectedPlatform.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\AffectedPlatform.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\AffectedPlatform.cs",
-              "RelativeToolTip": "Domain\\Entities\\AffectedPlatform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Extensions\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Api\\Extensions\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Extensions\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "IssueTracker.Api\\Extensions\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwDoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T21:45:13.034Z"
+              "WhenOpened": "2025-04-22T18:10:30.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IssueTracker.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\IssueTracker.Api.csproj",
+              "RelativeDocumentMoniker": "IssueTracker.Api\\IssueTracker.Api.csproj",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\IssueTracker.Api.csproj",
+              "RelativeToolTip": "IssueTracker.Api\\IssueTracker.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T18:09:30.625Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "IssueSymptomRecord.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\IssueSymptomRecord.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\IssueSymptomRecord.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\IssueSymptomRecord.cs",
-              "RelativeToolTip": "Domain\\Entities\\IssueSymptomRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "20250422175117_attachmentModified.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\Migrations\\20250422175117_attachmentModified.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Persistence\\Migrations\\20250422175117_attachmentModified.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\Migrations\\20250422175117_attachmentModified.cs",
+              "RelativeToolTip": "IssueTracker.Persistence\\Migrations\\20250422175117_attachmentModified.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T21:42:26.342Z"
+              "WhenOpened": "2025-04-22T17:51:17.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Platform.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\Platform.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Defects\\Platform.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\Platform.cs",
-              "RelativeToolTip": "Domain\\Entities\\Defects\\Platform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Program.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Program.cs",
+              "RelativeToolTip": "IssueTracker.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T21:24:20.463Z"
+              "WhenOpened": "2025-04-22T18:29:27.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 19,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Startup.cs",
+              "RelativeToolTip": "IssueTracker.Api\\Startup.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:29:30.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IssueTracker.Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\IssueTracker.Persistence.csproj",
+              "RelativeDocumentMoniker": "IssueTracker.Persistence\\IssueTracker.Persistence.csproj",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Persistence\\IssueTracker.Persistence.csproj",
+              "RelativeToolTip": "IssueTracker.Persistence\\IssueTracker.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T17:22:36.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AttachmentController.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Controllers\\AttachmentController.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Api\\Controllers\\AttachmentController.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Api\\Controllers\\AttachmentController.cs",
+              "RelativeToolTip": "IssueTracker.Api\\Controllers\\AttachmentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:19:18.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateIssueDto.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Issues\\Commands\\CreateIssue\\CreateIssueDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:07:26.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Attachment.cs",
               "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Attachment.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Attachment.cs",
               "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Attachment.cs",
               "RelativeToolTip": "Domain\\Entities\\Attachment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T21:12:45.69Z"
+              "WhenOpened": "2025-04-22T16:45:17.126Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Software.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\Software.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Defects\\Software.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\Software.cs",
-              "RelativeToolTip": "Domain\\Entities\\Defects\\Software.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAewBUAAABSAAAAAAAAAA==",
+              "Title": "CreateAttachmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommand.cs",
+              "RelativeDocumentMoniker": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommand.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommand.cs",
+              "RelativeToolTip": "IssueTracker.Application\\Features\\Attachments\\Commands\\CreateAttachment\\CreateAttachmentCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:17:30.865Z"
+              "WhenOpened": "2025-04-22T16:31:31.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SoftwarePackage.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\SoftwarePackage.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Defects\\SoftwarePackage.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\SoftwarePackage.cs",
-              "RelativeToolTip": "Domain\\Entities\\Defects\\SoftwarePackage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBQwBMAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "RelatedIssueRecord.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\RelatedIssueRecord.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\RelatedIssueRecord.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\RelatedIssueRecord.cs",
+              "RelativeToolTip": "Domain\\Entities\\RelatedIssueRecord.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:12:12.39Z"
+              "WhenOpened": "2025-04-22T16:48:43.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Symptom.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\Symptom.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Defects\\Symptom.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\Defects\\Symptom.cs",
-              "RelativeToolTip": "Domain\\Entities\\Defects\\Symptom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBAwAwAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "IssueSymptomRecord.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\IssueSymptomRecord.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\IssueSymptomRecord.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\IssueSymptomRecord.cs",
+              "RelativeToolTip": "Domain\\Entities\\IssueSymptomRecord.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T20:54:37.909Z"
+              "WhenOpened": "2025-04-22T16:48:39.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IssueTracker.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\IssueTracker.Domain.csproj",
-              "RelativeDocumentMoniker": "Domain\\IssueTracker.Domain.csproj",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\IssueTracker.Domain.csproj",
-              "RelativeToolTip": "Domain\\IssueTracker.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-16T19:37:16.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AuditableEntity.cs",
-              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Common\\AuditableEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\Common\\AuditableEntity.cs",
-              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Common\\AuditableEntity.cs",
-              "RelativeToolTip": "Domain\\Common\\AuditableEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "AffectedPlatform.cs",
+              "DocumentMoniker": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\AffectedPlatform.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AffectedPlatform.cs",
+              "ToolTip": "C:\\Users\\elsha\\source\\repos\\IssueTracker\\Domain\\Entities\\AffectedPlatform.cs",
+              "RelativeToolTip": "Domain\\Entities\\AffectedPlatform.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:37:01.4Z"
+              "WhenOpened": "2025-04-22T16:48:35.349Z"
             }
           ]
         }

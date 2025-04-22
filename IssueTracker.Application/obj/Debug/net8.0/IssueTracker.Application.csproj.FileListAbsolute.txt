@@ -1,0 +1,16 @@
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.csproj.AssemblyReference.cache
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.AssemblyInfoInputs.cache
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.AssemblyInfo.cs
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.csproj.CoreCompileInputs.cache
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.sourcelink.json
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\bin\Debug\net8.0\IssueTracker.Application.deps.json
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\bin\Debug\net8.0\IssueTracker.Application.dll
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\bin\Debug\net8.0\IssueTracker.Application.pdb
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\bin\Debug\net8.0\IssueTracker.Domain.dll
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\bin\Debug\net8.0\IssueTracker.Domain.pdb
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTra.506C35EE.Up2Date
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.dll
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\refint\IssueTracker.Application.dll
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\IssueTracker.Application.pdb
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.Application\obj\Debug\net8.0\ref\IssueTracker.Application.dll

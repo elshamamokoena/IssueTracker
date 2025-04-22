@@ -17,8 +17,8 @@ namespace IssueTracker.Domain.Entities.Defects
         public string Description { get; set; } = string.Empty;
         public ICollection<SoftwarePackage> PackageDependencies { get; set; }
             = new List<SoftwarePackage>();
-        public ICollection<Bug> AssociatedBugs { get; set; }
-            = new List<Bug>();
+        public ICollection<Issue> RelatedIssues { get; set; }
+            = new List<Issue>();
 
 
     }

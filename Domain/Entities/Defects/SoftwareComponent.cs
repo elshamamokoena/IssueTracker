@@ -13,8 +13,8 @@ namespace IssueTracker.Domain.Entities.Defects
         public string Name { get; set; } = string.Empty;
         public string Contact { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public ICollection<Bug> AssociatedBugs { get; set; }
-            = new List<Bug>();
+        public ICollection<RelatedIssueRecord> RelatedIssues { get; set; }
+            = new List<RelatedIssueRecord>();
 
     }
 }

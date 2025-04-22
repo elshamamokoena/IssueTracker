@@ -1,0 +1,1 @@
+C:\Users\elsha\source\repos\IssueTracker\IssueTracker.ReactWebApp\obj\Debug\issuetracker.reactwebapp.esproj.CoreCompileInputs.cache

@@ -33,7 +33,7 @@ namespace IssueTracker.Domain.Entities
          = new List<IssueSymptomRecord>();
         public ICollection<AffectedPlatform> IssueAffectedPlatforms { get; set; }
                             = new List<AffectedPlatform>();
-        public ICollection<Issue> RelatedIssues { get; set; }
-           = new List<Issue>();
+        public ICollection<RelatedIssueRecord> RelatedIssues { get; set; }
+           = new List<RelatedIssueRecord>();
     }
 }
