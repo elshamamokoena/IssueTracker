@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
+namespace IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
 {
-    public class CreateRelatedIssueRecordCommandValidator:AbstractValidator<CreateRelatedIssueRecordCommand>
+    public class CreateRelatedIssueRecordCommandValidator : AbstractValidator<CreateRelatedIssueRecordCommand>
     {
-        public CreateRelatedIssueRecordCommandValidator() 
+        public CreateRelatedIssueRecordCommandValidator()
         {
-            RuleFor(i=>i.IssueId)
+            RuleFor(i => i.IssueId)
                 .NotNull()
                 .NotEmpty().WithMessage("{PropertyName} is required.");
             RuleFor(i => i.RelatedIssueId)

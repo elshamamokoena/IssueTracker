@@ -10,6 +10,7 @@ namespace IssueTracker.Application.Features.Issues.Commands.CreateIssue
 {
     public class CreateIssueCommand:IRequest<CreateIssueCommandResponse>
     {
+        public Guid CategoryId { get; set; }    
         public string AuthorId { get; set; } = string.Empty;
         public string? OwnerId { get; set; }
         public IssueType IssueType { get; set; }

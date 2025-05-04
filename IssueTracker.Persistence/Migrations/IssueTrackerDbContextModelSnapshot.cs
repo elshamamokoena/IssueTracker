@@ -96,6 +96,81 @@ namespace IssueTracker.Persistence.Migrations
                     b.ToTable("Attachments");
                 });
 
+            modelBuilder.Entity("IssueTracker.Domain.Entities.Category", b =>
+                {
+                    b.Property<Guid>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("LastModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LastModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76b7c5dde"),
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "",
+                            Name = "General Issue"
+                        },
+                        new
+                        {
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76c7c5dde"),
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "",
+                            Name = "Maintenance"
+                        },
+                        new
+                        {
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76d7c5dde"),
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "",
+                            Name = "Engineering"
+                        },
+                        new
+                        {
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76e7c5dde"),
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "",
+                            Name = "Accounts"
+                        },
+                        new
+                        {
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76f7c5dde"),
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "",
+                            Name = "Feedback"
+                        },
+                        new
+                        {
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc7617c5dde"),
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "",
+                            Name = "Helpdesk"
+                        });
+                });
+
             modelBuilder.Entity("IssueTracker.Domain.Entities.Issue", b =>
                 {
                     b.Property<Guid>("IssueId")
@@ -105,6 +180,9 @@ namespace IssueTracker.Persistence.Migrations
                     b.Property<string>("AuthorId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
@@ -155,6 +233,8 @@ namespace IssueTracker.Persistence.Migrations
 
                     b.HasKey("IssueId");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Issues");
 
                     b.HasData(
@@ -162,12 +242,13 @@ namespace IssueTracker.Persistence.Migrations
                         {
                             IssueId = new Guid("b0788d2f-8003-43c1-92a4-edc76a7c5dde"),
                             AuthorId = "A0788D2F-8003-43C1-92A4-EDC76A7C5DDE",
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76c7c5dde"),
                             Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Add shopping cart feature to the app for Mariams's biscuits.",
                             IssueType = 1,
                             OwnerId = "C0788D2F-8003-43C1-92A4-EDC76A7C5DDE",
                             Priority = 1,
-                            Resolved = new DateTime(2025, 4, 23, 0, 11, 51, 495, DateTimeKind.Local).AddTicks(2631),
+                            Resolved = new DateTime(2025, 5, 4, 1, 10, 17, 739, DateTimeKind.Local).AddTicks(1265),
                             Severity = 3,
                             Status = 2,
                             Summary = "The feature has been added."
@@ -176,6 +257,7 @@ namespace IssueTracker.Persistence.Migrations
                         {
                             IssueId = new Guid("d0788d2f-8003-43c1-92a4-edc76a7c5dde"),
                             AuthorId = "E0788D2F-8003-43C1-92A4-EDC76A7C5DDE",
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76d7c5dde"),
                             Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Add documentation for the new shopping cart feature.",
                             IssueType = 6,
@@ -189,6 +271,7 @@ namespace IssueTracker.Persistence.Migrations
                         {
                             IssueId = new Guid("a1788d2f-8003-43c1-92a4-edc76a7c5dde"),
                             AuthorId = "A2788D2F-8003-43C1-92A4-EDC76A7C5DDE",
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76b7c5dde"),
                             Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "The clients app has crashed. The issue is with the EC2 instance that keeps stopping for no clear reason.",
                             IssueType = 3,
@@ -202,12 +285,13 @@ namespace IssueTracker.Persistence.Migrations
                         {
                             IssueId = new Guid("a4788d2f-8003-43c1-92a4-edc76a7c5dde"),
                             AuthorId = "A5788D2F-8003-43C1-92A4-EDC76A7C5DDE",
+                            CategoryId = new Guid("b0788d2f-8003-43c1-92a4-edc76c7c5dde"),
                             Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Add shopping cart feature to the app for Mariams's biscuits",
                             IssueType = 2,
                             OwnerId = "A6788D2F-8003-43C1-92A4-EDC76A7C5DDE",
                             Priority = 0,
-                            Resolved = new DateTime(2025, 4, 23, 0, 11, 51, 495, DateTimeKind.Local).AddTicks(2762),
+                            Resolved = new DateTime(2025, 5, 4, 1, 10, 17, 739, DateTimeKind.Local).AddTicks(1364),
                             Severity = 3,
                             Status = 2,
                             Summary = "Call the client."
@@ -298,6 +382,17 @@ namespace IssueTracker.Persistence.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("IssueTracker.Domain.Entities.Issue", b =>
+                {
+                    b.HasOne("IssueTracker.Domain.Entities.Category", "Category")
+                        .WithMany("Issues")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("IssueTracker.Domain.Entities.IssueSymptomRecord", b =>
                 {
                     b.HasOne("IssueTracker.Domain.Entities.Issue", null)
@@ -314,6 +409,11 @@ namespace IssueTracker.Persistence.Migrations
                         .HasForeignKey("IssueId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("IssueTracker.Domain.Entities.Category", b =>
+                {
+                    b.Navigation("Issues");
                 });
 
             modelBuilder.Entity("IssueTracker.Domain.Entities.Issue", b =>

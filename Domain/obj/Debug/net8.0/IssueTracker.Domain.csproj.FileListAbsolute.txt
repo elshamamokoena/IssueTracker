@@ -1,11 +1,11 @@
+C:\Users\elsha\source\repos\IssueTracker\Domain\bin\Debug\net8.0\IssueTracker.Domain.deps.json
+C:\Users\elsha\source\repos\IssueTracker\Domain\bin\Debug\net8.0\IssueTracker.Domain.dll
+C:\Users\elsha\source\repos\IssueTracker\Domain\bin\Debug\net8.0\IssueTracker.Domain.pdb
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.AssemblyInfoInputs.cache
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.AssemblyInfo.cs
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.csproj.CoreCompileInputs.cache
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.sourcelink.json
-C:\Users\elsha\source\repos\IssueTracker\Domain\bin\Debug\net8.0\IssueTracker.Domain.deps.json
-C:\Users\elsha\source\repos\IssueTracker\Domain\bin\Debug\net8.0\IssueTracker.Domain.dll
-C:\Users\elsha\source\repos\IssueTracker\Domain\bin\Debug\net8.0\IssueTracker.Domain.pdb
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.dll
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\refint\IssueTracker.Domain.dll
 C:\Users\elsha\source\repos\IssueTracker\Domain\obj\Debug\net8.0\IssueTracker.Domain.pdb

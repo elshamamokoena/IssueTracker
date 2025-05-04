@@ -2,7 +2,8 @@
 using IssueTracker.Application.Features.Issues.Commands.DeleteIssue;
 using IssueTracker.Application.Features.Issues.Commands.UpdateIssue;
 using IssueTracker.Application.Features.Issues.Queries.GetIssueList;
-using IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord;
+using IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord;
+using IssueTracker.Application.Features.RelatedIssueRecords.Queries.GetRelatedIssueRecordList;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,11 +14,12 @@ namespace IssueTracker.Api.Controllers
     public class IssueController : ControllerBase
     {
         private readonly IMediator _mediator;
-        public IssueController(IMediator mediator) { 
+        public IssueController(IMediator mediator)
+        {
             _mediator = mediator;
         }
 
-        [HttpGet("all", Name ="GetAllIssues")]
+        [HttpGet("all", Name = "GetAllIssues")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<List<IssueListVm>>> GetAllIssues()
         {
@@ -25,14 +27,14 @@ namespace IssueTracker.Api.Controllers
             return dtos;
         }
 
-        [HttpPost(Name ="AddIssue")]
+        [HttpPost(Name = "AddIssue")]
         public async Task<ActionResult<CreateIssueCommandResponse>> CreateIssue([FromBody] CreateIssueCommand createIssueCommand)
         {
             var response = await _mediator.Send(createIssueCommand);
             return Ok(response);
         }
 
-        [HttpPut(Name ="UpdateIssue")]
+        [HttpPut(Name = "UpdateIssue")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
@@ -42,7 +44,7 @@ namespace IssueTracker.Api.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}",Name ="DeleteIssue")]
+        [HttpDelete("{id}", Name = "DeleteIssue")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
@@ -51,12 +53,18 @@ namespace IssueTracker.Api.Controllers
             await _mediator.Send(new DeleteIssueCommand { IssueId = id });
             return NoContent();
         }
-        [HttpPost("relatedissue",Name ="CreateRelatedIssue")]
-        public async Task<ActionResult<CreateRelatedIssueRecordCommandResponse>> 
+        [HttpPost("relatedissues", Name = "CreateRelatedIssue")]
+        public async Task<ActionResult<CreateRelatedIssueRecordCommandResponse>>
             CreateRelatedIssue(CreateRelatedIssueRecordCommand createRelatedIssueRecordCommand)
         {
             var response = await _mediator.Send(createRelatedIssueRecordCommand);
             return Ok(response);
+        }
+        [HttpGet("relatedissues/{issueId}", Name = "GetAllRelatedIssues")]
+        public async Task<ActionResult<List<RelatedIssueRecordListVm>>> GetAllRelatedIssues(Guid issueId)
+        {
+            var relatedIssuesToReturn = await _mediator.Send(new RelatedIssueRecordListQuery { IssueId = issueId });
+            return Ok(relatedIssuesToReturn);
         }
     }
 }

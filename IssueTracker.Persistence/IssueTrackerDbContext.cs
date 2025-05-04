@@ -21,10 +21,47 @@ namespace IssueTracker.Persistence
         public DbSet<IssueSymptomRecord> IssueSymptomRecords { get; set; }
         public DbSet<AffectedPlatform> AffectedPlatforms { get; set; }
         public DbSet<RelatedIssueRecord> RelatedIssueRecords { get; set; }
+        public DbSet<Category> Categories { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-   
+
             //seed some data for testing
+            modelBuilder.Entity<Category>().HasData(new Category
+            {
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76B7C5DDE}"),
+                Name = "General Issue"
+
+            });
+            modelBuilder.Entity<Category>().HasData(new Category
+            {
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76C7C5DDE}"),
+                Name = "Maintenance"
+
+            });
+            modelBuilder.Entity<Category>().HasData(new Category
+            {
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76D7C5DDE}"),
+                Name = "Engineering"
+
+            });
+            modelBuilder.Entity<Category>().HasData(new Category
+            {
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76E7C5DDE}"),
+                Name = "Accounts"
+
+            });
+            modelBuilder.Entity<Category>().HasData(new Category
+            {
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76F7C5DDE}"),
+                Name = "Feedback"
+
+            });
+            modelBuilder.Entity<Category>().HasData(new Category
+            {
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC7617C5DDE}"),
+                Name = "Helpdesk"
+
+            });
             modelBuilder.Entity<Issue>().HasData(new Issue
             {
                 IssueId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76A7C5DDE}"),
@@ -37,6 +74,7 @@ namespace IssueTracker.Persistence
                 Resolved = DateTime.Now,
                 Summary = "The feature has been added.",
                 Description = "Add shopping cart feature to the app for Mariams's biscuits.",
+                CategoryId= Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76C7C5DDE}")
 
             });
             modelBuilder.Entity<Issue>().HasData(new Issue
@@ -51,6 +89,7 @@ namespace IssueTracker.Persistence
                 //Resolved = DateTime.Now,
                 Summary = "Docs almost complete.",
                 Description = "Add documentation for the new shopping cart feature.",
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76D7C5DDE}")
 
             });
             modelBuilder.Entity<Issue>().HasData(new Issue
@@ -65,7 +104,7 @@ namespace IssueTracker.Persistence
                 //Resolved = DateTime.Now,
                 Summary = "The EC2 instance just stopped.",
                 Description = "The clients app has crashed. The issue is with the EC2 instance that keeps stopping for no clear reason.",
-
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76B7C5DDE}")
             });
             modelBuilder.Entity<Issue>().HasData(new Issue
             {
@@ -79,7 +118,7 @@ namespace IssueTracker.Persistence
                 Resolved = DateTime.Now,
                 Summary = "Call the client.",
                 Description = "Add shopping cart feature to the app for Mariams's biscuits",
-
+                CategoryId = Guid.Parse("{B0788D2F-8003-43C1-92A4-EDC76C7C5DDE}")
             });
 
             base.OnModelCreating(modelBuilder);

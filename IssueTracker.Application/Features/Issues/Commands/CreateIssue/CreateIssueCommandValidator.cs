@@ -17,7 +17,7 @@ namespace IssueTracker.Application.Features.Issues.Commands.CreateIssue
 
             RuleFor(i => i.Description)
                 .NotEmpty().WithMessage("{PropertyName} is required.")
-                .MaximumLength(1000).WithMessage("{PropertyName} has exceeded the maximum number of characters(1000).");
+                .MaximumLength(1000).WithMessage("{PropertyName} has exceeded the maximum number of characters(100).");
         }
     }
 }

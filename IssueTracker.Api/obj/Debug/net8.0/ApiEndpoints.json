@@ -27,6 +27,27 @@
     "EndpointName": "CreateAttachment"
   },
   {
+    "ContainingType": "IssueTracker.Api.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/categories/issues/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[IssueTracker.Application.Features.Categories.Queries.GetCategoryList.GetCategoryListVm, IssueTracker.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllCategories"
+  },
+  {
     "ContainingType": "IssueTracker.Api.Controllers.IssueController",
     "Method": "CreateIssue",
     "RelativePath": "api/issues",
@@ -159,20 +180,20 @@
   {
     "ContainingType": "IssueTracker.Api.Controllers.IssueController",
     "Method": "CreateRelatedIssue",
-    "RelativePath": "api/issues/relatedissue",
+    "RelativePath": "api/issues/relatedissues",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "createRelatedIssueRecordCommand",
-        "Type": "IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord.CreateRelatedIssueRecordCommand",
+        "Type": "IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord.CreateRelatedIssueRecordCommand",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord.CreateRelatedIssueRecordCommandResponse",
+        "Type": "IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord.CreateRelatedIssueRecordCommandResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -182,5 +203,32 @@
       }
     ],
     "EndpointName": "CreateRelatedIssue"
+  },
+  {
+    "ContainingType": "IssueTracker.Api.Controllers.IssueController",
+    "Method": "GetAllRelatedIssues",
+    "RelativePath": "api/issues/relatedissues/{issueId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "issueId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[IssueTracker.Application.Features.RelatedIssueRecords.Queries.GetRelatedIssueRecordList.RelatedIssueRecordListVm, IssueTracker.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllRelatedIssues"
   }
 ]

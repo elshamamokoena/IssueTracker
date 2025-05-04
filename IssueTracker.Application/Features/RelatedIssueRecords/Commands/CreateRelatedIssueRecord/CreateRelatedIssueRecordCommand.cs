@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
+namespace IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
 {
     public class CreateRelatedIssueRecordCommand : IRequest<CreateRelatedIssueRecordCommandResponse>
     {

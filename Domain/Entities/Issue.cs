@@ -12,6 +12,8 @@ namespace IssueTracker.Domain.Entities
     public class Issue:AuditableEntity
     {
         public Guid IssueId { get; set; }
+        public Guid CategoryId { get; set; }
+        public Category? Category { get; set; }
         public string AuthorId { get; set; } = string.Empty;
         public string? OwnerId { get; set; }
         public DateTime? Resolved { get; set; }

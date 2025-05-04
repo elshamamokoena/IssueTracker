@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
 using IssueTracker.Application.Features.Attachments.Commands.CreateAttachment;
+using IssueTracker.Application.Features.Attachments.Queries.GetAttachmentList;
+using IssueTracker.Application.Features.Categories.Queries.GetCategoryList;
 using IssueTracker.Application.Features.Issues.Commands.CreateIssue;
 using IssueTracker.Application.Features.Issues.Commands.UpdateIssue;
 using IssueTracker.Application.Features.Issues.Queries.GetIssueDetail;
 using IssueTracker.Application.Features.Issues.Queries.GetIssueList;
-using IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord;
+using IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord;
+using IssueTracker.Application.Features.RelatedIssueRecords.Queries.GetRelatedIssueRecordList;
 using IssueTracker.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -27,10 +30,15 @@ namespace IssueTracker.Application.Profiles
             //Attachments
             CreateMap<CreateAttachmentCommand, Attachment>();
             CreateMap<Attachment, CreateAttachmentDto>();
+            CreateMap<Attachment, AttachmentListVm>();
+
 
             //related issues
             CreateMap<RelatedIssueRecord, CreateRelatedIssueRecordCommandDto>();
             CreateMap<CreateRelatedIssueRecordCommand, RelatedIssueRecord>();
+            CreateMap<RelatedIssueRecordListVm, RelatedIssueRecord>();
+            //Categories
+            CreateMap<Category, GetCategoryListVm>();
         }
     }
 }

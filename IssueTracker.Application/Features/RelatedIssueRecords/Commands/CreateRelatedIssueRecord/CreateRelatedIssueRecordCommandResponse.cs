@@ -1,6 +1,6 @@
 ﻿using IssueTracker.Application.Responses;
 
-namespace IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
+namespace IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
 {
     public class CreateRelatedIssueRecordCommandResponse : BaseResponse
     {

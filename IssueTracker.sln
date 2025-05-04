@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6F45AC6F-CA29-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssueTracker.Api", "IssueTracker.Api\IssueTracker.Api.csproj", "{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "issuetracker.reactwebapp", "IssueTracker.ReactWebApp\issuetracker.reactwebapp.esproj", "{5C8AAE0D-C473-47A6-A32A-E444C14CABE9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,12 +45,6 @@ Global
 		{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7E6D77-AEE8-4FE7-BD82-573ECD895752}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C8AAE0D-C473-47A6-A32A-E444C14CABE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C8AAE0D-C473-47A6-A32A-E444C14CABE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C8AAE0D-C473-47A6-A32A-E444C14CABE9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{5C8AAE0D-C473-47A6-A32A-E444C14CABE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C8AAE0D-C473-47A6-A32A-E444C14CABE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C8AAE0D-C473-47A6-A32A-E444C14CABE9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,7 +59,6 @@ Global
 		{F9854EEE-34B9-43B9-90A2-E46C846BA057} = {D6388831-AFE9-4A9F-8D8C-1E59386786A0}
 		{6F45AC6F-CA29-4157-AC3A-0662E1AB239E} = {B39C5CC6-3607-45F8-AED9-A886614AE825}
 		{9F7E6D77-AEE8-4FE7-BD82-573ECD895752} = {B4883089-117F-4BAA-AD81-D1547627EC17}
-		{5C8AAE0D-C473-47A6-A32A-E444C14CABE9} = {6F45AC6F-CA29-4157-AC3A-0662E1AB239E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33E2C006-DCB9-48CF-AFE2-1D05A86F1AE4}

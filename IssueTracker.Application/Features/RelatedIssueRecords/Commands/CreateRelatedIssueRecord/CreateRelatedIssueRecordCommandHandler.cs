@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
+namespace IssueTracker.Application.Features.RelatedIssueRecords.Commands.CreateRelatedIssueRecord
 {
     public class CreateRelatedIssueRecordCommandHandler :
         IRequestHandler<CreateRelatedIssueRecordCommand, CreateRelatedIssueRecordCommandResponse>
@@ -39,7 +39,7 @@ namespace IssueTracker.Application.Features.Issues.RelatedIssueRecords.Commands.
             if (validationResult.Errors.Count > 0)
                 throw new Exceptions.ValidationException(validationResult);
 
-            if(response.Success)
+            if (response.Success)
             {
                 var issueToCreate = _mapper.Map<RelatedIssueRecord>(request);
                 var issueToReturn = await _relatedIssueRepository.AddAsync(issueToCreate);

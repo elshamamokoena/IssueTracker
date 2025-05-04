@@ -39,16 +39,6 @@ namespace IssueTracker.Application.Features.Issues.Commands.CreateIssue
             }
             if(createIssueCommandResponse.Success)
             {
-                //var issue = new Issue()
-                //{
-                //    AuthorId = request.AuthorId,
-                //    Description = request.Description,
-                //    IssueType = request.IssueType,
-                //    Severity = request.Severity,
-                //    Priority = request.Priority,
-                //    Summary = request.Summary,
-                //    OwnerId = request.OwnerId
-                //};
                 var issue = _mapper.Map<Issue>(request);
                 issue = await _issueRepository.AddAsync(issue);
                 createIssueCommandResponse.Issue = _mapper.Map<CreateIssueDto>(issue);
